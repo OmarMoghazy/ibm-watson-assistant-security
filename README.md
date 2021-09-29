@@ -21,9 +21,9 @@ This is the plain HTML file for the BA HPC homepage. We are only interested in t
 <script>
         console.log('<%= jwt %>')
         window.watsonAssistantChatOptions = {
-        integrationID: "a606c6b8-5043-40c6-b801-247d7665005b", // The ID of this integration.
-        region: "eu-de", // The region your integration is hosted in.
-        serviceInstanceID: "7017f6b6-b4e5-41b8-82f4-f1199763c388", // The ID of your service instance.
+        integrationID: "XXXX", // The ID of this integration.
+        region: "XX-XX", // The region your integration is hosted in.
+        serviceInstanceID: "XXXX", // The ID of your service instance.
         identityToken:"<%= jwt %>",
         onLoad: function(instance) {
     instance.render();
