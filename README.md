@@ -36,4 +36,4 @@ This is the plain HTML file for the BA HPC homepage. We are only interested in t
     });
   </script>
   ```
-  The JWT that we generated is added to the `identityToken` option, which is the only line that we need to add manually. The rest is generated automatically and can be found in 'Embed' tab of the integration options on your IBM Watson Assistant instance dashboard.
+  The JWT that we generated is added to the `identityToken` option, which is the only line that we need to add manually. The rest is generated automatically and can be found in 'Embed' tab of the integration options on the IBM Watson Assistant instance dashboard.
